@@ -1,0 +1,14 @@
+{
+  "source_prediction_sha256": "ce37733281101dc5115af219ef4bc9b440086b90a3556eeef7d822596769370f",
+  "source_alarm_sha256": "8f1b8d1efb579441080f76d5be816c0777a785cc197a425d801a2cd7ec8651af",
+  "points": 36,
+  "case_ids": [
+    683,
+    2145,
+    1879
+  ],
+  "selection": "Same first three fixed SHA-order complete-h1 evaluation IDs as frozen V4; no quality/event selection.",
+  "original_individual_inputs_included": false,
+  "limited_derived_points": true,
+  "license": "CC BY-SA 4.0 for the derived data/graphics, subject to contest rights clarification."
+}

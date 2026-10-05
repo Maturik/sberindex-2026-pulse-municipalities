@@ -1,0 +1,58 @@
+{
+  "by": "Лея",
+  "at": "2026-10-05T11:49:45.244582+00:00",
+  "status": "EXECUTED",
+  "scientific_outcome": "NO_CONFIRMED_H3_UPGRADE",
+  "accepted": false,
+  "primary_native_scores": {
+    "ClippedEqualBlend": 610.0699267624269,
+    "EqualBlend": 610.0699267624269,
+    "LastValue": 886.8190185185185,
+    "OnlineHorizonBlend": 573.3462103238412,
+    "Prophet": 716.1285370697391,
+    "ProphetYearly": 645.0571775191233,
+    "RecentH3Blend": 572.2262179859014,
+    "SharedSeasonal": 620.6327227022335
+  },
+  "h3_native_scores": {
+    "ClippedEqualBlend": 617.2837388094198,
+    "EqualBlend": 617.2837388094198,
+    "LastValue": 880.484094982079,
+    "OnlineHorizonBlend": 633.2317144687765,
+    "Prophet": 738.156584848406,
+    "ProphetYearly": 639.9964706713098,
+    "RecentH3Blend": 629.8717374549572,
+    "SharedSeasonal": 522.4584061325186
+  },
+  "overall_gain_vs_V4": 1.1199923379398342,
+  "h3_gain_vs_V4": 3.359977013819389,
+  "h1_h6_unchanged": true,
+  "detector_inherited_unchanged": true,
+  "counters": {
+    "global_h3_LP_fits": 7,
+    "new_Prophet_fits": 0,
+    "new_core_fits": 0,
+    "new_foundation_fits": 0
+  },
+  "runtime_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "prophet": "1.4.0",
+    "cmdstanpy": "1.3.0",
+    "pyarrow": "25.0.1"
+  },
+  "elapsed_seconds": 8.14100000000326,
+  "limitations": [
+    "Known2024 reused; no blind evaluation or correction for model search",
+    "Fixed training weights in municipality CI, no spatial-dependence adjustment",
+    "Native global loss preserves influence of high-value categories; equal-series is not equal error magnitude",
+    "Few matured h3 target months; many rows do not imply independent seasons"
+  ],
+  "Cloud": "NOT_RUN",
+  "CLAUDE_REVIEW": "NOT_RUN",
+  "external_delivery_sends": 0,
+  "decision": "Preassigned global h3 half-life2 correction failed acceptance; retain V4, no retuning or rescue.",
+  "stop_go": "GO_V6_ARITHMETIC_AND_FINAL_REVIEW_ONLY",
+  "handoff": "Check saved outputs without fitting, prepare actual Claude review and local package. No new candidate or rerun."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ARTIFICIAL_CAUSAL_CONFIG_CHECKS_PASSED",
+  "future_invariance": true,
+  "evaluation_territory_invariance": true,
+  "penalty_changes_actual_weights": true,
+  "empty_history_uses_prior": true,
+  "competition_rows_used": 0,
+  "actual_low_penalty_weights": [
+    0.5,
+    0.3333333333333333,
+    0.16666666666666669
+  ],
+  "actual_high_penalty_weights": [
+    0.3333333333333333,
+    0.3333333333333334,
+    0.3333333333333333
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "SAVED_INPUT_CHARTS_RENDERED",
+  "model_fits": 0,
+  "new_metrics": 0,
+  "inputs": {
+    "results\\METRICS.csv": "b214bc4cc223dc60947d6214a72877e7aa09c89433a7b5b41531888ee3422490",
+    "results\\WEIGHTS_BY_ORIGIN.csv": "6073cfd846305d285d694e74cd378a61233404171245d85090039bbae09202cc",
+    "examples\\CASE_POINTS.csv": "07f6de36391f8cb87f313765366507e624a8590679ff7c3cceef6c20d358cafc",
+    "examples\\MUNICIPAL_NAMES.json": "c22b4b6996d6248c1589fba190fde0b3e8873e929b7786056dca6b90d7280bae"
+  },
+  "figures": {
+    "case_1879.png": "7a7f37e7b6f908368d3cc5140c5a67d945d6da0d430e6f29cc3f7b5a85147bc5",
+    "case_2145.png": "70a43772a57f1e1c3947a14aa3e87032bf90ec9f278c3c7d503cd84e68f08a89",
+    "case_683.png": "abbcfebce93cc4e1ea9359939e93bf8dc6a4cdc55938420299779b57bea56bb3",
+    "forecast_errors.png": "f57c4254b641aad712e1241f7a11a340d340f3fa5aef96a4e3c0e2b0793632e5",
+    "weights.png": "4acae941cf3f71c44d50f785d7460ec7003482bb7a1460539b0eecb9bf616db2"
+  }
+}

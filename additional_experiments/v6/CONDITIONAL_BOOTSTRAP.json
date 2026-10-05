@@ -1,0 +1,222 @@
+{
+  "overall": {
+    "candidate": "RecentH3Blend",
+    "horizons": [
+      1,
+      3,
+      6
+    ],
+    "comparisons": {
+      "native_OnlineHorizonBlend": {
+        "gain_comparator_minus_candidate": 1.1199923379397776,
+        "CI95": [
+          0.17846765577133453,
+          1.982367527218553
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_ClippedEqualBlend": {
+        "gain_comparator_minus_candidate": 37.84370877652557,
+        "CI95": [
+          33.45704714248247,
+          42.4635968897428
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_Prophet": {
+        "gain_comparator_minus_candidate": 143.9023190838377,
+        "CI95": [
+          127.30943462374266,
+          161.19733698172888
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_ProphetYearly": {
+        "gain_comparator_minus_candidate": 72.83095953322193,
+        "CI95": [
+          50.06946521677148,
+          93.77091000206988
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_SharedSeasonal": {
+        "gain_comparator_minus_candidate": 48.406504716332165,
+        "CI95": [
+          33.130548780049395,
+          65.45917278582075
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_OnlineHorizonBlend": {
+        "gain_comparator_minus_candidate": 0.00041017216292463075,
+        "CI95": [
+          8.408158727055194e-05,
+          0.0006790735858092232
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_ClippedEqualBlend": {
+        "gain_comparator_minus_candidate": 0.0014584909582826269,
+        "CI95": [
+          0.00043580931139971065,
+          0.002414220133596174
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_Prophet": {
+        "gain_comparator_minus_candidate": 0.02516452199940125,
+        "CI95": [
+          0.022113528015222768,
+          0.02795043794063829
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_ProphetYearly": {
+        "gain_comparator_minus_candidate": 0.0010200083411048624,
+        "CI95": [
+          -0.004502629356055586,
+          0.00629069324997602
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_SharedSeasonal": {
+        "gain_comparator_minus_candidate": 0.017929929621270223,
+        "CI95": [
+          0.013446754348944226,
+          0.023512196223481142
+        ],
+        "territories": 125,
+        "repetitions": 2000,
+        "seed": 20261005
+      }
+    },
+    "limitation": "paired municipalities, fixed fitted weights, conditional reused2024; no new macro-year or spatial-dependence correction"
+  },
+  "h3": {
+    "candidate": "RecentH3Blend",
+    "horizons": [
+      3
+    ],
+    "comparisons": {
+      "native_OnlineHorizonBlend": {
+        "gain_comparator_minus_candidate": 3.3599770138193326,
+        "CI95": [
+          0.5584818014314465,
+          6.082926994527932
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_ClippedEqualBlend": {
+        "gain_comparator_minus_candidate": -12.58799864553735,
+        "CI95": [
+          -23.762909843916333,
+          -1.5702466205124948
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_Prophet": {
+        "gain_comparator_minus_candidate": 108.28484739344894,
+        "CI95": [
+          95.21411117674414,
+          121.97902848908419
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_ProphetYearly": {
+        "gain_comparator_minus_candidate": 10.124733216352647,
+        "CI95": [
+          -13.878976389084183,
+          32.81464247612788
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "native_SharedSeasonal": {
+        "gain_comparator_minus_candidate": -107.4133313224386,
+        "CI95": [
+          -128.36469773451188,
+          -84.92631896586367
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_OnlineHorizonBlend": {
+        "gain_comparator_minus_candidate": 0.0012305164887738923,
+        "CI95": [
+          0.0003576166178537641,
+          0.0020446006880047384
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_ClippedEqualBlend": {
+        "gain_comparator_minus_candidate": -0.006104870911336662,
+        "CI95": [
+          -0.008568578539108562,
+          -0.0036290998679928913
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_Prophet": {
+        "gain_comparator_minus_candidate": 0.021758806090913917,
+        "CI95": [
+          0.018581797808577306,
+          0.024430396812262865
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_ProphetYearly": {
+        "gain_comparator_minus_candidate": -0.006268098926503698,
+        "CI95": [
+          -0.013144705657252929,
+          0.00024095306311823017
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      },
+      "scaled_SharedSeasonal": {
+        "gain_comparator_minus_candidate": 0.0013275408983194938,
+        "CI95": [
+          -0.004988484240817395,
+          0.008884508010078151
+        ],
+        "territories": 124,
+        "repetitions": 2000,
+        "seed": 20261005
+      }
+    },
+    "limitation": "paired municipalities, fixed fitted weights, conditional reused2024; no new macro-year or spatial-dependence correction"
+  }
+}

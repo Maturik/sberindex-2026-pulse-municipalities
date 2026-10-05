@@ -1,0 +1,29 @@
+{
+  "municipalities": {
+    "683": {
+      "name": "Абанский муниципальный район",
+      "region": "Красноярский край",
+      "year_from": 2018,
+      "year_to": 9999,
+      "oktmo": "04-601-000-000"
+    },
+    "1879": {
+      "name": "городской округ Отрадный",
+      "region": "Самарская область",
+      "year_from": 2018,
+      "year_to": 9999,
+      "oktmo": "36-724-000-000"
+    },
+    "2145": {
+      "name": "городской округ город Кедровый",
+      "region": "Томская область",
+      "year_from": 2018,
+      "year_to": 9999,
+      "oktmo": "69-707-000-000"
+    }
+  },
+  "source_sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6",
+  "lookup": "Exact territory_id; one dictionary row per ID, dictionary historical edition, no fuzzy join.",
+  "dictionary_source": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+  "dictionary_source_evidence": "reports/OFFICIAL_AUDIT.md:18 and receipts/DICTIONARY_URLOPEN.json, preserved local intake"
+}
