@@ -1,0 +1,85 @@
+{
+  "comparisons": {
+    "native_Prophet": {
+      "gain_comparator_minus_candidate": 142.78232674589793,
+      "CI95": [
+        126.7186303264142,
+        159.38172043097236
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "native_ProphetYearly": {
+      "gain_comparator_minus_candidate": 71.71096719528215,
+      "CI95": [
+        49.486929784333405,
+        91.99658858111393
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "native_ClippedEqualBlend": {
+      "gain_comparator_minus_candidate": 36.72371643858582,
+      "CI95": [
+        32.048871032051665,
+        41.93259518359298
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "native_EqualBlend": {
+      "gain_comparator_minus_candidate": 36.723716438585804,
+      "CI95": [
+        32.04887103205168,
+        41.93259518359296
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "scaled_Prophet": {
+      "gain_comparator_minus_candidate": 0.024754349836476616,
+      "CI95": [
+        0.02191802421428121,
+        0.027374782507812775
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "scaled_ProphetYearly": {
+      "gain_comparator_minus_candidate": 0.000609836178180234,
+      "CI95": [
+        -0.004737349995883983,
+        0.005733310276870122
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "scaled_ClippedEqualBlend": {
+      "gain_comparator_minus_candidate": 0.0010483187953579975,
+      "CI95": [
+        3.575770176216431e-05,
+        0.0020562855757323114
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    },
+    "scaled_EqualBlend": {
+      "gain_comparator_minus_candidate": 0.0010483187953579962,
+      "CI95": [
+        3.575770176216524e-05,
+        0.002056285575732314
+      ],
+      "territories": 125,
+      "repetitions": 2000,
+      "seed": 20261005
+    }
+  },
+  "limitation": "paired municipalities; fixed learned weights; conditional known year, no spatial dependence correction"
+}

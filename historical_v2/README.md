@@ -1,0 +1,3 @@
+Historical V2 code/config/sources and selected aggregates, unchanged bytes. Forecast winner ThetaLite failed; results are not V4 scores. Original old README references PDF/PPTX absent from this compact evidence appendix; use ARCHIVE_README only for code reproduction. Full original V2 release remains separate and sealed. No rerun of old models by the investigator.
+
+ARCHIVE_README is unchanged historical text. References to presentation.pdf/pptx, FORECAST_SELECTION.json and RESULT.json refer to the separate full V2 release, absent from this compact appendix. Current V4 README and reports are authoritative for V4.

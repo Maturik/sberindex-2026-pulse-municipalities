@@ -1,0 +1,63 @@
+{
+  "by": "Лея",
+  "at": "2026-10-05T07:46:16.321912+00:00",
+  "status": "EXECUTED",
+  "candidate": "OnlineHorizonBlend",
+  "scientific_outcome": "CONDITIONAL_REUSED_DATA_ADVANTAGE",
+  "incremental_learning_advantage": true,
+  "primary_native_scores": {
+    "ClippedEqualBlend": 610.069926762427,
+    "EqualBlend": 610.0699267624269,
+    "LastValue": 886.8190185185185,
+    "OnlineHorizonBlend": 573.3462103238412,
+    "Prophet": 716.1285370697391,
+    "ProphetYearly": 645.0571775191233,
+    "SharedSeasonal": 620.6327227022335
+  },
+  "secondary_scaled_scores": {
+    "ClippedEqualBlend": 0.12906443742766038,
+    "EqualBlend": 0.1290644374276604,
+    "LastValue": 0.17343359486585672,
+    "OnlineHorizonBlend": 0.12801611863230242,
+    "Prophet": 0.152770468468779,
+    "ProphetYearly": 0.12862595481048264,
+    "SharedSeasonal": 0.145535876090648
+  },
+  "coverage": {
+    "planned_evaluation_territories": 128,
+    "actual_evaluation_territories": 125,
+    "forecast_pairs_per_method": 21612,
+    "primary_pairs_per_method": 13404,
+    "h6_warmup": "Five of six JulDec h6 forecasts use uniform prior; only December has mature h6 labels"
+  },
+  "detector": {
+    "threshold": 3.1622776601683795,
+    "calibration_alarm_rate": 0.08531746031746032,
+    "calibration_pairs": 4536,
+    "evaluation_alarm_rate": 0.03382616487455197,
+    "alarms": 151,
+    "evaluation_pairs": 4464,
+    "not_FPR": true
+  },
+  "counters": {
+    "ensemble_LP_fits": 19,
+    "prophet_fits": 0,
+    "core_fits": 0,
+    "foundation_fits": 0
+  },
+  "runtime_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "prophet": "1.4.0",
+    "cmdstanpy": "1.3.0",
+    "pyarrow": "25.0.1"
+  },
+  "elapsed_seconds": 18.79700000002049,
+  "Cloud": "NOT_RUN",
+  "CLAUDE_REVIEW": "NOT_RUN",
+  "external_delivery_sends": 0,
+  "decision": "Keep preassigned OnlineHorizonBlend; no test-based rescue or selection; all2024 outcomes previously known.",
+  "stop_go": "GO_AUTHORIZED_V4_PACKAGE_REVIEW",
+  "handoff": "Arithmetic checks and actual final Claude review; build and seal local research package."
+}

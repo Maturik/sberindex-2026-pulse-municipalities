@@ -1,0 +1,7 @@
+{
+  "threshold": 3.1622776601683795,
+  "alarm_rate": 0.08531746031746032,
+  "pairs": 4536,
+  "budget": 0.1,
+  "labels": "NOT_FPR"
+}

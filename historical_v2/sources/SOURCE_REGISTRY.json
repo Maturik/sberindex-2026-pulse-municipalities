@@ -1,0 +1,75 @@
+{
+  "official_contest": "https://sber.ru/sberindex/konkurs_sberindex",
+  "rules": "https://sber.ru/common/assets/sber/sberindex_polozhenie_o_konkurse.pdf",
+  "regional_events": [
+    {
+      "event_id": "orsk_flood",
+      "published_local": "2024-04-06 08:42",
+      "month": "2024-04",
+      "scope": "city_Orsk",
+      "territory_ids": [
+        1673
+      ],
+      "kind": "flood",
+      "url": "https://56.mchs.gov.ru/deyatelnost/press-centr/novosti/5249015",
+      "download_status": "DOWNLOADED",
+      "http_status": 200,
+      "final_url": "https://56.mchs.gov.ru/deyatelnost/press-centr/novosti/5249015",
+      "bytes": 90087,
+      "sha256": "7f8381068c1377f6b9f02f14dee428a8fd7652074df15f63dbe74110be3764b4",
+      "timezone": "not separately confirmed; published local displayed text",
+      "truth_label": "external event anchor; not consumption changepoint groundtruth"
+    },
+    {
+      "event_id": "orenburg_federal",
+      "published_local": "2024-04-07 12:38",
+      "month": "2024-04",
+      "scope": "Orenburgregion_response",
+      "territory_ids": [],
+      "kind": "flood",
+      "url": "https://en.mchs.gov.ru/for-mass-media/novosti/5250469",
+      "download_status": "DOWNLOADED",
+      "http_status": 200,
+      "final_url": "https://en.mchs.gov.ru/for-mass-media/novosti/5250469",
+      "bytes": 73276,
+      "sha256": "26023a2a5fddcedd834be3dc161437cf81c35967b1d48de4b16a2cd3dec4627b",
+      "timezone": "not separately confirmed; published local displayed text",
+      "truth_label": "external event anchor; not consumption changepoint groundtruth"
+    },
+    {
+      "event_id": "kursk_regional",
+      "published_local": "2024-08-07 21:19",
+      "month": "2024-08",
+      "scope": "Kurskregion_emergency_regime",
+      "territory_ids": [],
+      "kind": "regional_emergency",
+      "url": "https://46.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5337327",
+      "download_status": "DOWNLOADED",
+      "http_status": 200,
+      "final_url": "https://46.mchs.gov.ru/deyatelnost/press-centr/vse_novosti/5337327",
+      "bytes": 90581,
+      "sha256": "f421953f803d3319fee8b97eea9bc91022a313e9e8430c2a3771aa58625e6ef1",
+      "timezone": "not separately confirmed; published local displayed text",
+      "truth_label": "external event anchor; not consumption changepoint groundtruth"
+    },
+    {
+      "event_id": "kursk_federal",
+      "published_local": "2024-08-09 11:06",
+      "month": "2024-08",
+      "scope": "Kurskregion_federal_response",
+      "territory_ids": [],
+      "kind": "regional_emergency",
+      "url": "https://mchs.gov.ru/deyatelnost/press-centr/novosti/5338284",
+      "download_status": "DOWNLOADED",
+      "http_status": 200,
+      "final_url": "https://mchs.gov.ru/deyatelnost/press-centr/novosti/5338284",
+      "bytes": 101076,
+      "sha256": "e0536ea4876752cc4692cafe32aae068f0ec4847a104593b5e4524b0d57db787",
+      "timezone": "not separately confirmed; published local displayed text",
+      "truth_label": "external event anchor; not consumption changepoint groundtruth"
+    }
+  ],
+  "model_id": "amazon/chronos-2",
+  "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+  "input_sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61"
+}

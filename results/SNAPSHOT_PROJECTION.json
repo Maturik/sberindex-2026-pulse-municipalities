@@ -1,0 +1,22 @@
+{
+  "status": "SNAPSHOT_APPLICATION_EXECUTED",
+  "series": 12096,
+  "territories": 2016,
+  "rows": 36288,
+  "excluded_series": 1044,
+  "prophet_fits": 12096,
+  "ensemble_fits": 3,
+  "elapsed_seconds": 555.3120000000054,
+  "forecast_sha256": "e62d5019c6499b44fca6f73b25ab3c829288ded6a4a2f83d426505d80611a910",
+  "origin": "2024-12",
+  "targets": [
+    "2025-01",
+    "2025-03",
+    "2025-06"
+  ],
+  "evaluation_or_model_selection": false,
+  "independent_verification": false,
+  "Cloud": "NOT_RUN",
+  "code_sha256": "adfe012544d2d0477a26609583346baa1e346130d518f0d7d5381fe01e5d7d4f",
+  "config_sha256": "a30e3e42796329a5f8e4fed630fd07ab1ce4ea5a3a584ebeb5f672195af8dbdf"
+}

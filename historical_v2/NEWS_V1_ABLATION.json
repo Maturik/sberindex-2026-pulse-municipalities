@@ -1,0 +1,13 @@
+{
+  "source": "previous fixed V1, differentpanel; not V2newindependentscore",
+  "values": {
+    "validation": {
+      "no_news": 0.1647041306742215,
+      "news": 0.17158512752927582
+    },
+    "holdout": {
+      "no_news": 0.11571159113149362,
+      "news": 0.30723602401915234
+    }
+  }
+}
